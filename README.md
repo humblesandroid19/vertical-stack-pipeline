@@ -20,8 +20,21 @@ Its purpose is to test whether multimodal physiological signals can estimate sys
 
 This project is not a clinical diagnostic tool, medical device, treatment protocol, or validated predictor of human outcomes. It is a research-grade computational framework intended for simulation, falsification, reproducibility, and future validation against real-world physiological datasets.
 
+
 ---
 
 ## Standardized Academic Citation Format
 
 > Humbles, A. D. (2026). *The Vertical Stack: Physiological Risk Classification Pipeline Infrastructure* (v3.1.0). GitHub. https://github.com/HumblesAndroid19/vertical-stack-pipeline
+> ## Quick Start
+
+```bash
+# 1. Clone the repo (or open in GitHub Codespaces)
+git clone https://github.com/HumblesAndroid19/vertical-stack-pipeline.git
+cd vertical-stack-pipeline
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the safety test (confirms everything works)
+python -m pytest tests/ -q
