@@ -20,4 +20,3 @@ def test_pipeline_runtime_safety():
     assert "TRIGGER_EMERGENCY_SHUTDOWN" in scored_df["hardware_relay_signal"].values
     assert "RESEARCH_REVIEW_REQUIRED" in scored_df["predicted_scenario"].values
 
-Add automated safety test

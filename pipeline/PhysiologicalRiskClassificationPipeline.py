@@ -40,9 +40,10 @@ class PhysiologicalRiskClassificationPipeline:
         features = df[feature_cols]
 
         df["predicted_scenario"] = self.model.predict(features)
+        if df["predicted_scenario"].dtype != object:
+            df["predicted_scenario"] = df["predicted_scenario"].astype(object)
 
         df = self.guardian.evaluate(df, null_imputation_burden)
 
         return df[["predicted_scenario", "decoupling_index", "decoupling_velocity", "hardware_relay_signal"]].round(2)
 
-  Add core PhysiologicalRiskClassificationPipeline
