@@ -6,7 +6,10 @@
 **Current Root Anchor:** https://github.com/HumblesAndroid19/vertical-stack-pipeline
 
 ### Abstract
-This repository contains a reproducible research implementation of the Vertical Stack physiological-state pipeline. The system models simulated or wearable-compatible telemetry streams using bounded preprocessing, engineered physiological indices, conservative state classification, and lead-lag validation logic. Its purpose is to test whether multimodal physiological signals can estimate systemic stress load, metabolic strain, tissue-field proxy shifts, and future deterioration or recovery states under controlled research assumptions.
+
+This repository contains a reproducible research implementation of the Vertical Stack physiological-state pipeline. The system models simulated or wearable-compatible telemetry streams using bounded preprocessing, engineered physiological indices, conservative state classification, and lead-lag validation logic.
+
+Its purpose is to test whether multimodal physiological signals can estimate systemic stress load, metabolic strain, tissue-field proxy shifts, and future deterioration or recovery states under controlled research assumptions.
 
 This project is not a clinical diagnostic tool, medical device, treatment protocol, or validated predictor of human outcomes. It is a research-grade computational framework intended for simulation, falsification, reproducibility, and future validation against real-world physiological datasets.
 
