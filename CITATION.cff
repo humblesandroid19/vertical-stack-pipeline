@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: 'If you use this software pipeline or framework, please cite it as below.'
+authors:
+  - name: 'Alexander D. Humbles'
+    alias: 'HumblesAndroid19'
+title: 'The Vertical Stack: Physiological Risk Risk Classification Pipeline'
+version: '3.1.0'
+date-released: '2026-05-16'
+url: 'https://github.com/HumblesAndroid19/vertical-stack-pipeline'
