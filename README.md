@@ -38,3 +38,11 @@ pip install -r requirements.txt
 
 # 3. Run the safety test (confirms everything works)
 python -m pytest tests/ -q
+```
+
+## Run the Full Vertical Stack (one command)
+
+```bash
+# From the repo root
+python run_full_stack.py
+```
